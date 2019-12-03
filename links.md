@@ -1,2 +1,2 @@
-- [xcite](xcite/api/index.html)
-- [ohco2](ohco2/api/index.html)
+- [xcite](xcite/api/edu/holycross/shot/cite/index.html)
+- [ohco2](ohco2/api/edu/holycross/shot/ohco2/index.html)
