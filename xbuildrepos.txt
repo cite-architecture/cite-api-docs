@@ -1,2 +1,10 @@
-https://github.com/cite-architecture/xcite
+https://github.com/cite-architecture/cex
+https://github.com/cite-architecture/citebinaryimage
+https://github.com/cite-architecture/citejson
+https://github.com/cite-architecture/citeobj
+https://github.com/cite-architecture/citerelations
+https://github.com/cite-architecture/citewriter
+https://github.com/cite-architecture/dse
 https://github.com/cite-architecture/ohco2
+https://github.com/cite-architecture/scm
+https://github.com/cite-architecture/xcite
