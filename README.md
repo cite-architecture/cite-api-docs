@@ -14,7 +14,7 @@ To build
 
 ## To process new repositories
 
-For repositories crossbuilding for JVM and ScalaJ:
+For repositories crossbuilding for JVM and ScalaJS:
 
 1. add the full URL for the repository to the file `xbuildrepos.txt`
 2. add a link to the file `links.md` following the model of existing links.  (These are used to create the index page for the ghpages web site.)
