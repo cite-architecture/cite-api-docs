@@ -24,10 +24,9 @@ For repositories crossbuilding for JVM and ScalaJS:
 
 For repositories built for JVM only:
 
-- TBD
+- TBD (or not?  All of the libraries listed on our [current version numbers page](https://github.com/cite-architecture/current-library-versions) are cross-compiled for ScalaJS andJVM.)
 
 ## TBD
 
-- add support for repositories building for JVM only
 - automate git so docs are automatically pushed when `./refresh.sh` is run
 - set up a machine to execute `refresh.sh` on a regular cycle with `cron`
