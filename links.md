@@ -1,5 +1,5 @@
 
-See a list of [current library versions](https://github.com/cite-architecture/current-library-versions)
+See a list of [current library versions](https://github.com/cite-architecture/current-library-versions).
 
   - [cex](cex/api/edu/holycross/shot/cex/index.html)
   - [citebinaryimage](citebinaryimage/api/edu/holycross/shot/citebinaryimage/index.html)

@@ -1,9 +1,9 @@
 ## CITE architecture libraries: API documentation
 
-Last updated: Tue Dec  3 15:25:09 EST 2019
+Last updated: Tue Dec  3 15:28:36 EST 2019
 
 
-See a list of [current library versions](https://github.com/cite-architecture/current-library-versions)
+See a list of [current library versions](https://github.com/cite-architecture/current-library-versions).
 
   - [cex](cex/api/edu/holycross/shot/cex/index.html)
   - [citebinaryimage](citebinaryimage/api/edu/holycross/shot/citebinaryimage/index.html)
