@@ -6,7 +6,7 @@ See a list of [current library versions](https://github.com/cite-architecture/cu
   - [citejson](citejson/api/edu/holycross/shot/citejson/index.html)
   - [citeobj](citeobj/api/edu/holycross/shot/citeobj/index.html)
   - [citerelations](citerelations/api/edu/holycross/shot/citerelations/index.html)
-  - [citewriter](citewriter/api/edu/holycross/shot/citewriter/index.html)
+  - [citewriter](citewriter/api/edu/furman/classics/citewriter/index.html)
   - [dse](dse/api/edu/holycross/shot/dse/index.html)
   - [ohco2](ohco2/api/edu/holycross/shot/ohco2/index.html)
   - [scm](scm/api/edu/holycross/shot/scm/index.html)

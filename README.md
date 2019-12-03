@@ -3,6 +3,13 @@
 - See [current version numbers of CITE libraries](https://github.com/cite-architecture/current-library-versions)
 - See [automatically generated API docs](https://cite-architecture.github.io/cite-api-docs)
 
+
+## Requirements
+
+- a POSIX environment
+- sbt
+- git
+
 ## Usage
 
 To build
