@@ -11,7 +11,7 @@
 
 ## Usage
 
-To build
+To build and push fresh API documentation to the repository:
 
     ./refresh.sh
 
