@@ -1,5 +1,5 @@
 
-## CITE
+See a list of [current library versions](https://github.com/cite-architecture/current-library-versions)
 
   - [cex](cex/api/index.html)
   - [citebinaryimage](citebinaryimage/api/index.html)
