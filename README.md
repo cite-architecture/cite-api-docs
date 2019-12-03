@@ -24,7 +24,7 @@ For repositories crossbuilding for JVM and ScalaJS:
 
 For repositories built for JVM only:
 
-- TBD
+- TBD (or not?  All of the libraries listed on our [current version numbers page](https://github.com/cite-architecture/current-library-versions) are cross-compiled for ScalaJS andJVM.)
 
 ## TBD
 
