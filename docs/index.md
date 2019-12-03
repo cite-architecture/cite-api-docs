@@ -1,17 +1,17 @@
 ## CITE architecture libraries: API documentation
 
-Last updated: Tue Dec  3 15:14:29 EST 2019
+Last updated: Tue Dec  3 15:25:09 EST 2019
 
 
 See a list of [current library versions](https://github.com/cite-architecture/current-library-versions)
 
-  - [cex](cex/index.html)
-  - [citebinaryimage](citebinaryimage/index.html)
-  - [citejson](citejson/index.html)
-  - [citeobj](citeobj/index.html)
-  - [citerelations](citerelations/index.html)
-  - [citewriter](citewriter/index.html)
-  - [dse](dse/index.html)
-  - [ohco2](ohco2/edu/holycross/shot/ohco2/index.html)
-  - [scm](scm/index.html)
-  - [xcite](xcite/edu/holycross/shot/cite/index.html)
+  - [cex](cex/api/edu/holycross/shot/cex/index.html)
+  - [citebinaryimage](citebinaryimage/api/edu/holycross/shot/citebinaryimage/index.html)
+  - [citejson](citejson/api/edu/holycross/shot/citejson/index.html)
+  - [citeobj](citeobj/api/edu/holycross/shot/citeobj/index.html)
+  - [citerelations](citerelations/api/edu/holycross/shot/citerelations/index.html)
+  - [citewriter](citewriter/api/edu/holycross/shot/citewriter/index.html)
+  - [dse](dse/api/edu/holycross/shot/dse/index.html)
+  - [ohco2](ohco2/api/edu/holycross/shot/ohco2/index.html)
+  - [scm](scm/api/edu/holycross/shot/scm/index.html)
+  - [xcite](xcite/api/edu/holycross/shot/cite/index.html)
