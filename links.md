@@ -1,13 +1,13 @@
 
-See a list of [current library versions](https://github.com/cite-architecture/current-library-versions).
 
-  - [cex](cex/api/edu/holycross/shot/cex/index.html)
-  - [citebinaryimage](citebinaryimage/api/edu/holycross/shot/citebinaryimage/index.html)
-  - [citejson](citejson/api/edu/holycross/shot/citejson/index.html)
-  - [citeobj](citeobj/api/edu/holycross/shot/citeobj/index.html)
-  - [citerelations](citerelations/api/edu/holycross/shot/citerelations/index.html)
-  - [citewriter](citewriter/api/edu/furman/classics/citewriter/index.html)
-  - [dse](dse/api/edu/holycross/shot/dse/index.html)
-  - [ohco2](ohco2/api/edu/holycross/shot/ohco2/index.html)
-  - [scm](scm/api/edu/holycross/shot/scm/index.html)
-  - [xcite](xcite/api/edu/holycross/shot/cite/index.html)
+
+  - [cex](cex/api/edu/holycross/shot/cex/index.html) 6.3.3
+  - [citebinaryimage](citebinaryimage/api/edu/holycross/shot/citebinaryimage/index.html) 3.1.0
+  - [citejson](citejson/api/edu/holycross/shot/citejson/index.html) 2.7.0
+  - [citeobj](citeobj/api/edu/holycross/shot/citeobj/index.html) 7.3.4
+  - [citerelations](citerelations/api/edu/holycross/shot/citerelations/index.html) 2.5.2
+  - [citewriter](citewriter/api/edu/furman/classics/citewriter/index.html) 1.2.2
+  - [dse](dse/api/edu/holycross/shot/dse/index.html) 5.2.1
+  - [ohco2](ohco2/api/edu/holycross/shot/ohco2/index.html) 10.16.0
+  - [scm](scm/api/edu/holycross/shot/scm/index.html) 7.0.1
+  - [xcite](xcite/api/edu/holycross/shot/cite/index.html) 4.1.1
