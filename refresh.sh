@@ -1,7 +1,9 @@
 #!/usr/bin/env /bin/bash
 #
 # Read list of github repos with cross-builds in JVM and ScalaJS
-# from xbuildrepos.txt, update if needed, and generate API docs.
+# from xbuildrepos.txt, update repos if needed, and generate API docs.
+# Copy resulting API docs into ghpages directory, and write a time-stamped
+# index file into the root of the ghpages directory.
 #
 # Requirements:  sbt, git, POSIX.
 #
@@ -11,10 +13,11 @@ export PWD=`which pwd`
 export LS=`which ls`
 export CP=`which cp`
 export SBT=`which sbt`
+export DATE=`which date`
+export CAT=`which cat`
 
 export DOCSSUBDIR=jvm/target/scala-2.12/api
 export ROOT=`pwd`
-
 
 for REPO in $(cat xbuildrepos.txt) ; do
   echo $REPO
@@ -34,3 +37,7 @@ for REPO in $(cat xbuildrepos.txt) ; do
   echo "Copying " `$LS $APIDOCS` " to " docs/$DIR " ..."
   $CP -r $APIDOCS docs/$DIR
 done;
+
+export STAMPED=`date`
+printf "## CITE architecture libraries: API documentation\n\nLast updated: $STAMPED\n\n" > header.md
+$CAT header.md links.md > docs/index.md
