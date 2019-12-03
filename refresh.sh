@@ -15,6 +15,7 @@ export CP=`which cp`
 export SBT=`which sbt`
 export DATE=`which date`
 export CAT=`which cat`
+export RM=`which rm`
 
 export DOCSSUBDIR=jvm/target/scala-2.12/api
 export ROOT=`pwd`
@@ -41,3 +42,4 @@ done;
 export STAMPED=`date`
 printf "## CITE architecture libraries: API documentation\n\nLast updated: $STAMPED\n\n" > header.md
 $CAT header.md links.md > docs/index.md
+$RM header.md
