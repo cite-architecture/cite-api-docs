@@ -1,7 +1,6 @@
 # `cite-api-docs`
 
-- See [current version numbers of CITE libraries](https://github.com/cite-architecture/current-library-versions)
-- See [automatically generated API docs](https://cite-architecture.github.io/cite-api-docs)
+- See [automatically generated API docs](https://cite-architecture.github.io/cite-api-docs) with current version numbers
 
 
 ## Requirements
