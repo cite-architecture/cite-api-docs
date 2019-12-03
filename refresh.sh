@@ -1,9 +1,11 @@
 #!/usr/bin/env /bin/bash
 #
 # Read list of github repos with cross-builds in JVM and ScalaJS
-# from xbuildrepos.txt, update repos if needed, and generate API docs.
-# Copy resulting API docs into ghpages directory, and write a time-stamped
-# index file into the root of the ghpages directory.
+# from xbuildrepos.txt, git clone or git pull on repos as needed,
+# and build API docs with sbt.
+# Copy resulting API docs from the jvm branch's 2.12 directory
+# into the corresponding ghpages directory.
+# Write a time-stamped index file in the root of the ghpages directory.
 #
 # Requirements:  sbt, git, POSIX.
 #
@@ -35,12 +37,21 @@ for REPO in $(cat xbuildrepos.txt) ; do
   cd $ROOT
   export APIDOCS=$DIR/$DOCSSUBDIR
   #echo "APIDOCS IS " $APIDOCS
-  printf "\n\n"
+  printf "\n"
   echo $CP " -r" $APIDOCS  docs/$DIR
   $CP -r $APIDOCS docs/$DIR
+  printf "\n\n"
 done;
 
 export STAMPED=`date`
-printf "## CITE architecture libraries: API documentation\n\nLast updated: $STAMPED\n\n" > header.md
+printf "## CITE architecture libraries: version numbers and API documentation\n\nLast updated: $STAMPED\n\n" > header.md
 $CAT header.md links.md > docs/index.md
 $RM header.md
+
+export MSG="Committing automatically generated API docs."
+
+
+echo "Committing and pushing..."
+$GIT add docs
+$GIT commit -m "$MSG"
+$GIT push
