@@ -34,8 +34,9 @@ for REPO in $(cat xbuildrepos.txt) ; do
 
   cd $ROOT
   export APIDOCS=$DIR/$DOCSSUBDIR
-  echo "APIDOCS IS " $APIDOCS
-  echo "Copying " `$LS $APIDOCS` " to " docs/$DIR " ..."
+  #echo "APIDOCS IS " $APIDOCS
+  printf "\n\n"
+  echo $CP " -r" $APIDOCS  docs/$DIR
   $CP -r $APIDOCS docs/$DIR
 done;
 
