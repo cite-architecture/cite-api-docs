@@ -12,6 +12,9 @@ To build
     git commit -m "UPDATE MSG"
     git push
 
+Please do **not commit** any of the automatically cloned repositories in this repository!
+
+
 ## To process new repositories
 
 For repositories crossbuilding for JVM and ScalaJS:
