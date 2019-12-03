@@ -1,6 +1,6 @@
 https://github.com/cite-architecture/cex
 https://github.com/cite-architecture/citebinaryimage
-https://github.com/cite-architecture/citejson
+https://github.com/cite-architecture/CITE-JSON
 https://github.com/cite-architecture/citeobj
 https://github.com/cite-architecture/citerelations
 https://github.com/cite-architecture/citewriter
