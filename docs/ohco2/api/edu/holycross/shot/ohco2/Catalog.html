@@ -258,7 +258,7 @@
         <span class="kind">case class</span>
       </span>
       <span class="symbol">
-        <span class="name">Catalog</span><span class="params">(<span name="texts">texts: <span class="extype" name="scala.Vector">Vector</span>[<a href="CatalogEntry.html" class="extype" name="edu.holycross.shot.ohco2.CatalogEntry">CatalogEntry</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <span class="name">Catalog</span><span class="params">(<span name="texts">texts: <span class="extype" name="scala.Vector">Vector</span>[<a href="CatalogEntry.html" class="extype" name="edu.holycross.shot.ohco2.CatalogEntry">CatalogEntry</a>]</span>)</span><span class="result"> extends <span class="extype" name="wvlet.log.LogSupport">LogSupport</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
       </span>
       </h4>
 
@@ -271,7 +271,7 @@
           <span class="toggle">
             Linear Supertypes
           </span>
-          <div class="superTypes hiddenContent"><span class="extype" name="scala.Serializable">Serializable</span>, <span class="extype" name="java.io.Serializable">Serializable</span>, <span class="extype" name="scala.Product">Product</span>, <span class="extype" name="scala.Equals">Equals</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.Product">Product</span>, <span class="extype" name="scala.Equals">Equals</span>, <span class="extype" name="wvlet.log.LogSupport">LogSupport</span>, <span class="extype" name="wvlet.log.LazyLogger">LazyLogger</span>, <span class="extype" name="wvlet.log.LoggingMethods">LoggingMethods</span>, <span class="extype" name="scala.Serializable">Serializable</span>, <span class="extype" name="java.io.Serializable">Serializable</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
         </div></div>
         
 
@@ -297,7 +297,7 @@
                   <span class="filtertype">Inherited<br />
                   </span>
                   <ol id="linearization">
-                    <li class="in" name="edu.holycross.shot.ohco2.Catalog"><span>Catalog</span></li><li class="in" name="scala.Serializable"><span>Serializable</span></li><li class="in" name="java.io.Serializable"><span>Serializable</span></li><li class="in" name="scala.Product"><span>Product</span></li><li class="in" name="scala.Equals"><span>Equals</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                    <li class="in" name="edu.holycross.shot.ohco2.Catalog"><span>Catalog</span></li><li class="in" name="scala.Product"><span>Product</span></li><li class="in" name="scala.Equals"><span>Equals</span></li><li class="in" name="wvlet.log.LogSupport"><span>LogSupport</span></li><li class="in" name="wvlet.log.LazyLogger"><span>LazyLogger</span></li><li class="in" name="wvlet.log.LoggingMethods"><span>LoggingMethods</span></li><li class="in" name="scala.Serializable"><span>Serializable</span></li><li class="in" name="java.io.Serializable"><span>Serializable</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
                   </ol>
                 </div><div class="ancestors">
               <span class="filtertype"></span>
@@ -484,6 +484,38 @@
     </span>)</span>
               
         </dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#debug" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="debug(message:Any,cause:Throwable):Unit"></a><a id="debug(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#debug(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#debug" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="debug(message:Any):Unit"></a><a id="debug(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#debug(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li><li name="edu.holycross.shot.ohco2.Catalog#dupes" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="dupes:scala.collection.immutable.Iterable[edu.holycross.shot.cite.CtsUrn]"></a><a id="dupes:Iterable[CtsUrn]"></a>
       <span class="permalink">
@@ -533,6 +565,38 @@
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#error" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="error(message:Any,cause:Throwable):Unit"></a><a id="error(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#error(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#error" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="error(message:Any):Unit"></a><a id="error(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#error(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li><li name="edu.holycross.shot.ohco2.Catalog#exemplarLabel" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="exemplarLabel(u:edu.holycross.shot.cite.CtsUrn):String"></a><a id="exemplarLabel(CtsUrn):String"></a>
       <span class="permalink">
@@ -620,6 +684,38 @@
       </span>
       
       <p class="shortcomment cmt">Find Set of all text groups represented in the catalog.</p>
+    </li><li name="wvlet.log.LoggingMethods#info" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="info(message:Any,cause:Throwable):Unit"></a><a id="info(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#info(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#info" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="info(message:Any):Unit"></a><a id="info(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#info(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li><li name="scala.Any#isInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isInstanceOf[T0]:Boolean"></a>
       <span class="permalink">
@@ -742,6 +838,38 @@ text groups in this catalog.</p>
 given URN.</p><div class="fullcomment"><div class="comment cmt"><p>Create string label describing all catalog entries matching a
 given URN.
 </p></div><dl class="paramcmts block"><dt class="param">urn</dt><dd class="cmt"><p>Urn to match.</p></dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#logAt" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="logAt(logLevel:wvlet.log.LogLevel,message:Any):Unit"></a><a id="logAt(LogLevel,Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#logAt(logLevel:wvlet.log.LogLevel,message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">logAt</span><span class="params">(<span name="logLevel">logLevel: <span class="extype" name="wvlet.log.LogLevel">LogLevel</span></span>, <span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LazyLogger#logger" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="logger:wvlet.log.Logger"></a><a id="logger:Logger"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#logger:wvlet.log.Logger" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">lazy val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">logger</span><span class="result">: <span class="extype" name="wvlet.log.Logger">Logger</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[this] </dd><dt>Definition Classes</dt><dd>LazyLogger</dd></dl></div>
     </li><li name="scala.AnyRef#ne" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ne(x$1:AnyRef):Boolean"></a><a id="ne(AnyRef):Boolean"></a>
       <span class="permalink">
@@ -871,6 +999,38 @@ map of <a href="LabelledCtsUrn.html" class="extype" name="edu.holycross.shot.ohc
 map of <a href="LabelledCtsUrn.html" class="extype" name="edu.holycross.shot.ohco2.LabelledCtsUrn">LabelledCtsUrn</a>s for versions to a
 Vector of [LabelledCtsUrn]s.
 </p></div></div>
+    </li><li name="wvlet.log.LoggingMethods#trace" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="trace(message:Any,cause:Throwable):Unit"></a><a id="trace(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#trace(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#trace" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="trace(message:Any):Unit"></a><a id="trace(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#trace(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li><li name="edu.holycross.shot.ohco2.Catalog#urnList" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="urnList:scala.collection.immutable.Vector[edu.holycross.shot.cite.CtsUrn]"></a><a id="urnList:Vector[CtsUrn]"></a>
       <span class="permalink">
@@ -1007,6 +1167,38 @@ The result is a map of [LabelledCtsUrn]s to a
     </span>)</span>
               
         </dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#warn" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="warn(message:Any,cause:Throwable):Unit"></a><a id="warn(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#warn(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#warn" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="warn(message:Any):Unit"></a><a id="warn(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Catalog.html#warn(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li><li name="edu.holycross.shot.ohco2.Catalog#workTitle" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="workTitle(u:edu.holycross.shot.cite.CtsUrn):String"></a><a id="workTitle(CtsUrn):String"></a>
       <span class="permalink">
@@ -1099,14 +1291,20 @@ Vector of [LabelledCtsUrn]s.
         </div>
 
         <div id="inheritedMembers">
-        <div class="parent" name="scala.Serializable">
-              <h3>Inherited from <span class="extype" name="scala.Serializable">Serializable</span></h3>
-            </div><div class="parent" name="java.io.Serializable">
-              <h3>Inherited from <span class="extype" name="java.io.Serializable">Serializable</span></h3>
-            </div><div class="parent" name="scala.Product">
+        <div class="parent" name="scala.Product">
               <h3>Inherited from <span class="extype" name="scala.Product">Product</span></h3>
             </div><div class="parent" name="scala.Equals">
               <h3>Inherited from <span class="extype" name="scala.Equals">Equals</span></h3>
+            </div><div class="parent" name="wvlet.log.LogSupport">
+              <h3>Inherited from <span class="extype" name="wvlet.log.LogSupport">LogSupport</span></h3>
+            </div><div class="parent" name="wvlet.log.LazyLogger">
+              <h3>Inherited from <span class="extype" name="wvlet.log.LazyLogger">LazyLogger</span></h3>
+            </div><div class="parent" name="wvlet.log.LoggingMethods">
+              <h3>Inherited from <span class="extype" name="wvlet.log.LoggingMethods">LoggingMethods</span></h3>
+            </div><div class="parent" name="scala.Serializable">
+              <h3>Inherited from <span class="extype" name="scala.Serializable">Serializable</span></h3>
+            </div><div class="parent" name="java.io.Serializable">
+              <h3>Inherited from <span class="extype" name="java.io.Serializable">Serializable</span></h3>
             </div><div class="parent" name="scala.AnyRef">
               <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
             </div><div class="parent" name="scala.Any">

@@ -1,6 +1,6 @@
 ## CITE architecture libraries: version numbers and API documentation
 
-Last updated: Fri Dec 20 15:44:07 EST 2019
+Last updated: Sat Dec 21 16:07:29 EST 2019
 
 
 
@@ -12,6 +12,6 @@ Last updated: Fri Dec 20 15:44:07 EST 2019
   - [citerelations](citerelations/api/edu/holycross/shot/citerelation/index.html) 2.5.2
   - [citewriter](citewriter/api/edu/furman/classics/citewriter/index.html) 1.2.2
   - [dse](dse/api/edu/holycross/shot/dse/index.html) 5.2.2
-  - [ohco2](ohco2/api/edu/holycross/shot/ohco2/index.html) 10.17.0
+  - [ohco2](ohco2/api/edu/holycross/shot/ohco2/index.html) 10.18.0
   - [scm](scm/api/edu/holycross/shot/scm/index.html) 7.1.0
   - [xcite](xcite/api/edu/holycross/shot/cite/index.html) 4.2.0

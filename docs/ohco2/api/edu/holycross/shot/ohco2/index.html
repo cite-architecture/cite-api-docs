@@ -318,9 +318,9 @@
         <div id="types" class="types members">
               <h3>Type Members</h3>
               <ol><li name="edu.holycross.shot.ohco2.Catalog" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="CatalogextendsProductwithSerializable"></a><a id="Catalog:Catalog"></a>
+      <a id="CatalogextendsLogSupportwithProductwithSerializable"></a><a id="Catalog:Catalog"></a>
       <span class="permalink">
-      <a href="../../../../edu/holycross/shot/ohco2/index.html#CatalogextendsProductwithSerializable" title="Permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/index.html#CatalogextendsLogSupportwithProductwithSerializable" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -329,7 +329,7 @@
         <span class="kind">case class</span>
       </span>
       <span class="symbol">
-        <a title="Catalog for an entire text repository." href="Catalog.html"><span class="name">Catalog</span></a><span class="params">(<span name="texts">texts: <span class="extype" name="scala.Vector">Vector</span>[<a href="CatalogEntry.html" class="extype" name="edu.holycross.shot.ohco2.CatalogEntry">CatalogEntry</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <a title="Catalog for an entire text repository." href="Catalog.html"><span class="name">Catalog</span></a><span class="params">(<span name="texts">texts: <span class="extype" name="scala.Vector">Vector</span>[<a href="CatalogEntry.html" class="extype" name="edu.holycross.shot.ohco2.CatalogEntry">CatalogEntry</a>]</span>)</span><span class="result"> extends <span class="extype" name="wvlet.log.LogSupport">LogSupport</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
       </span>
       
       <p class="shortcomment cmt">Catalog for an entire text repository.</p><div class="fullcomment"><div class="comment cmt"><p>Catalog for an entire text repository.
@@ -359,9 +359,9 @@ separated by a delimiter.</p></dd><dt class="param">lang</dt><dd class="cmt"><p>
               
         </dd></dl></div>
     </li><li name="edu.holycross.shot.ohco2.CitableNode" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="CitableNodeextendsProductwithSerializable"></a><a id="CitableNode:CitableNode"></a>
+      <a id="CitableNodeextendsLogSupportwithProductwithSerializable"></a><a id="CitableNode:CitableNode"></a>
       <span class="permalink">
-      <a href="../../../../edu/holycross/shot/ohco2/index.html#CitableNodeextendsProductwithSerializable" title="Permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/index.html#CitableNodeextendsLogSupportwithProductwithSerializable" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -370,7 +370,7 @@ separated by a delimiter.</p></dd><dt class="param">lang</dt><dd class="cmt"><p>
         <span class="kind">case class</span>
       </span>
       <span class="symbol">
-        <a title="The smallest canonically citable unit of a text." href="CitableNode.html"><span class="name">CitableNode</span></a><span class="params">(<span name="urn">urn: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>, <span name="text">text: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <a title="The smallest canonically citable unit of a text." href="CitableNode.html"><span class="name">CitableNode</span></a><span class="params">(<span name="urn">urn: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>, <span name="text">text: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="wvlet.log.LogSupport">LogSupport</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
       </span>
       
       <p class="shortcomment cmt">The smallest canonically citable unit of a text.</p><div class="fullcomment"><div class="comment cmt"><p>The smallest canonically citable unit of a text.
@@ -398,9 +398,9 @@ separated by a delimiter.</p></dd><dt class="param">lang</dt><dd class="cmt"><p>
               
         </dd></dl></div>
     </li><li name="edu.holycross.shot.ohco2.Corpus" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="CorpusextendsProductwithSerializable"></a><a id="Corpus:Corpus"></a>
+      <a id="CorpusextendsLogSupportwithProductwithSerializable"></a><a id="Corpus:Corpus"></a>
       <span class="permalink">
-      <a href="../../../../edu/holycross/shot/ohco2/index.html#CorpusextendsProductwithSerializable" title="Permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/index.html#CorpusextendsLogSupportwithProductwithSerializable" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -409,7 +409,7 @@ separated by a delimiter.</p></dd><dt class="param">lang</dt><dd class="cmt"><p>
         <span class="kind">case class</span>
       </span>
       <span class="symbol">
-        <a title="A corpus of citable texts." href="Corpus.html"><span class="name">Corpus</span></a><span class="params">(<span name="nodes">nodes: <span class="extype" name="scala.Vector">Vector</span>[<a href="CitableNode.html" class="extype" name="edu.holycross.shot.ohco2.CitableNode">CitableNode</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <a title="A corpus of citable texts." href="Corpus.html"><span class="name">Corpus</span></a><span class="params">(<span name="nodes">nodes: <span class="extype" name="scala.Vector">Vector</span>[<a href="CitableNode.html" class="extype" name="edu.holycross.shot.ohco2.CitableNode">CitableNode</a>]</span>)</span><span class="result"> extends <span class="extype" name="wvlet.log.LogSupport">LogSupport</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
       </span>
       
       <p class="shortcomment cmt">A corpus of citable texts.</p><div class="fullcomment"><div class="comment cmt"><p>A corpus of citable texts.
