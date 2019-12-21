@@ -1,6 +1,6 @@
 ## CITE architecture libraries: version numbers and API documentation
 
-Last updated: Sat Dec 21 16:07:29 EST 2019
+Last updated: Sat Dec 21 16:25:05 EST 2019
 
 
 
@@ -8,7 +8,7 @@ Last updated: Sat Dec 21 16:07:29 EST 2019
   - [cex](cex/api/edu/holycross/shot/cex/index.html) 6.3.3
   - [citebinaryimage](citebinaryimage/api/edu/holycross/shot/citebinaryimage/index.html) 3.1.1
   - [citejson](CITE-JSON/api/edu/holycross/shot/citejson/index.html) 2.7.0
-  - [citeobj](citeobj/api/edu/holycross/shot/citeobj/index.html) 7.3.4
+  - [citeobj](citeobj/api/edu/holycross/shot/citeobj/index.html) 7.4.0
   - [citerelations](citerelations/api/edu/holycross/shot/citerelation/index.html) 2.5.2
   - [citewriter](citewriter/api/edu/furman/classics/citewriter/index.html) 1.2.2
   - [dse](dse/api/edu/holycross/shot/dse/index.html) 5.2.2
