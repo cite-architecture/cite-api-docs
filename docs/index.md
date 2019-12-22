@@ -1,6 +1,6 @@
 ## CITE architecture libraries: version numbers and API documentation
 
-Last updated: Sun Dec 22 03:20:21 EST 2019
+Last updated: Sun Dec 22 03:30:19 EST 2019
 
 
 
