@@ -1,6 +1,6 @@
 
 
-  - [cex](cex/api/edu/holycross/shot/cex/index.html) 6.3.3
+  - [cex](cex/api/edu/holycross/shot/cex/index.html) 6.4.0
   - [citebinaryimage](citebinaryimage/api/edu/holycross/shot/citebinaryimage/index.html) 3.1.1
   - [citejson](CITE-JSON/api/edu/holycross/shot/citejson/index.html) 2.7.0
   - [citeobj](citeobj/api/edu/holycross/shot/citeobj/index.html) 7.4.0
