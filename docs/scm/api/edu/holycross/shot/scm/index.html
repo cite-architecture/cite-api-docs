@@ -244,9 +244,9 @@ representations of repositories stored in various formats.</p></div><div class="
         <div id="types" class="types members">
               <h3>Type Members</h3>
               <ol><li name="edu.holycross.shot.scm.CiteLibrary" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="CiteLibraryextendsProductwithSerializable"></a><a id="CiteLibrary:CiteLibrary"></a>
+      <a id="CiteLibraryextendsLogSupportwithProductwithSerializable"></a><a id="CiteLibrary:CiteLibrary"></a>
       <span class="permalink">
-      <a href="../../../../edu/holycross/shot/scm/index.html#CiteLibraryextendsProductwithSerializable" title="Permalink">
+      <a href="../../../../edu/holycross/shot/scm/index.html#CiteLibraryextendsLogSupportwithProductwithSerializable" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -255,7 +255,7 @@ representations of repositories stored in various formats.</p></div><div class="
         <span class="kind">case class</span>
       </span>
       <span class="symbol">
-        <a title="A library of citable scholarly resources." href="CiteLibrary.html"><span class="name">CiteLibrary</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="urn">urn: <span class="extype" name="edu.holycross.shot.cite.Cite2Urn">Cite2Urn</span></span>, <span name="license">license: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="namespaces">namespaces: <span class="extype" name="scala.Vector">Vector</span>[<a href="CiteNamespace.html" class="extype" name="edu.holycross.shot.scm.CiteNamespace">CiteNamespace</a>]</span>, <span name="textRepository">textRepository: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="edu.holycross.shot.ohco2.TextRepository">TextRepository</span>] = <span class="symbol">None</span></span>, <span name="collectionRepository">collectionRepository: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="edu.holycross.shot.citeobj.CiteCollectionRepository">CiteCollectionRepository</span>] = <span class="symbol">None</span></span>, <span name="relationSet">relationSet: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="edu.holycross.shot.citerelation.CiteRelationSet">CiteRelationSet</span>] = <span class="symbol">None</span></span>, <span name="dataModels">dataModels: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Vector">Vector</span>[<a href="DataModel.html" class="extype" name="edu.holycross.shot.scm.DataModel">DataModel</a>]] = <span class="symbol">None</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <a title="A library of citable scholarly resources." href="CiteLibrary.html"><span class="name">CiteLibrary</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="urn">urn: <span class="extype" name="edu.holycross.shot.cite.Cite2Urn">Cite2Urn</span></span>, <span name="license">license: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="namespaces">namespaces: <span class="extype" name="scala.Vector">Vector</span>[<a href="CiteNamespace.html" class="extype" name="edu.holycross.shot.scm.CiteNamespace">CiteNamespace</a>]</span>, <span name="textRepository">textRepository: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="edu.holycross.shot.ohco2.TextRepository">TextRepository</span>] = <span class="symbol">None</span></span>, <span name="collectionRepository">collectionRepository: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="edu.holycross.shot.citeobj.CiteCollectionRepository">CiteCollectionRepository</span>] = <span class="symbol">None</span></span>, <span name="relationSet">relationSet: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="edu.holycross.shot.citerelation.CiteRelationSet">CiteRelationSet</span>] = <span class="symbol">None</span></span>, <span name="dataModels">dataModels: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Vector">Vector</span>[<a href="DataModel.html" class="extype" name="edu.holycross.shot.scm.DataModel">DataModel</a>]] = <span class="symbol">None</span></span>)</span><span class="result"> extends <span class="extype" name="wvlet.log.LogSupport">LogSupport</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
       </span>
       
       <p class="shortcomment cmt">A library of citable scholarly resources.</p><div class="fullcomment"><div class="comment cmt"><p>A library of citable scholarly resources.
@@ -387,7 +387,7 @@ of <code>.cex</code> file into a Map.
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a title="Factory for creating CiteLibrary objects from a String in CEX format." href="CiteLibrary$.html"><span class="name">CiteLibrary</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <a title="Factory for creating CiteLibrary objects from a String in CEX format." href="CiteLibrary$.html"><span class="name">CiteLibrary</span></a><span class="result"> extends <span class="extype" name="wvlet.log.LogSupport">LogSupport</span></span>
       </span>
       
       <p class="shortcomment cmt">Factory for creating <a href="CiteLibrary.html" class="extype" name="edu.holycross.shot.scm.CiteLibrary">CiteLibrary</a> objects from
