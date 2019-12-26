@@ -171,7 +171,7 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <span class="name">DseVector</span><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <span class="name">DseVector</span><span class="result"> extends <span class="extype" name="wvlet.log.LogSupport">LogSupport</span></span>
       </span>
       </h4>
 
@@ -180,7 +180,7 @@
           <span class="toggle">
             Linear Supertypes
           </span>
-          <div class="superTypes hiddenContent"><span class="extype" name="scala.Serializable">Serializable</span>, <span class="extype" name="java.io.Serializable">Serializable</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+          <div class="superTypes hiddenContent"><span class="extype" name="wvlet.log.LogSupport">LogSupport</span>, <span class="extype" name="wvlet.log.LazyLogger">LazyLogger</span>, <span class="extype" name="wvlet.log.LoggingMethods">LoggingMethods</span>, <span class="extype" name="scala.Serializable">Serializable</span>, <span class="extype" name="java.io.Serializable">Serializable</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
         </div></div>
         
 
@@ -206,7 +206,7 @@
                   <span class="filtertype">Inherited<br />
                   </span>
                   <ol id="linearization">
-                    <li class="in" name="edu.holycross.shot.dse.DseVector"><span>DseVector</span></li><li class="in" name="scala.Serializable"><span>Serializable</span></li><li class="in" name="java.io.Serializable"><span>Serializable</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                    <li class="in" name="edu.holycross.shot.dse.DseVector"><span>DseVector</span></li><li class="in" name="wvlet.log.LogSupport"><span>LogSupport</span></li><li class="in" name="wvlet.log.LazyLogger"><span>LazyLogger</span></li><li class="in" name="wvlet.log.LoggingMethods"><span>LoggingMethods</span></li><li class="in" name="scala.Serializable"><span>Serializable</span></li><li class="in" name="java.io.Serializable"><span>Serializable</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
                   </ol>
                 </div><div class="ancestors">
               <span class="filtertype"></span>
@@ -296,8 +296,8 @@
         <span class="name">apply</span><span class="params">(<span name="cexString">cexString: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <a href="DseVector.html" class="extype" name="edu.holycross.shot.dse.DseVector">DseVector</a></span>
       </span>
       
-      <p class="shortcomment cmt">Create a <a href="DseVector.html" class="extype" name="edu.holycross.shot.dse.DseVector">DseVector</a> from a CEX source with default
-values for delimiter strings.</p><div class="fullcomment"><div class="comment cmt"><p>Create a <a href="DseVector.html" class="extype" name="edu.holycross.shot.dse.DseVector">DseVector</a> from a CEX source with default
+      <p class="shortcomment cmt">Create a <a href="DseVector.html" class="extype" name="edu.holycross.shot.dse.DseVector">DseVector</a> from CEX source with default
+values for delimiter strings.</p><div class="fullcomment"><div class="comment cmt"><p>Create a <a href="DseVector.html" class="extype" name="edu.holycross.shot.dse.DseVector">DseVector</a> from CEX source with default
 values for delimiter strings.
 The CEX source must define a CITE Library.
 </p></div></div>
@@ -361,6 +361,74 @@ The CEX source must define a CITE Library.
     </span>)</span>
               
         </dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#debug" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="debug(message:Any,cause:Throwable):Unit"></a><a id="debug(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#debug(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#debug" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="debug(message:Any):Unit"></a><a id="debug(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#debug(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="edu.holycross.shot.dse.DseVector#doubleIndexedSurfaces" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="doubleIndexedSurfaces(passages:Vector[edu.holycross.shot.dse.DsePassage]):Vector[edu.holycross.shot.cite.Cite2Urn]"></a><a id="doubleIndexedSurfaces(Vector[DsePassage]):Vector[Cite2Urn]"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#doubleIndexedSurfaces(passages:Vector[edu.holycross.shot.dse.DsePassage]):Vector[edu.holycross.shot.cite.Cite2Urn]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">doubleIndexedSurfaces</span><span class="params">(<span name="passages">passages: <span class="extype" name="scala.Vector">Vector</span>[<a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>]</span>)</span><span class="result">: <span class="extype" name="scala.Vector">Vector</span>[<span class="extype" name="edu.holycross.shot.cite.Cite2Urn">Cite2Urn</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Find any instances of a text-bearing surface indexed to more than
+one reference image in a Vector of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s.</p>
+    </li><li name="edu.holycross.shot.dse.DseVector#duplicatePassages" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="duplicatePassages(dsePassages:Vector[edu.holycross.shot.dse.DsePassage]):Vector[edu.holycross.shot.cite.CtsUrn]"></a><a id="duplicatePassages(Vector[DsePassage]):Vector[CtsUrn]"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#duplicatePassages(dsePassages:Vector[edu.holycross.shot.dse.DsePassage]):Vector[edu.holycross.shot.cite.CtsUrn]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">duplicatePassages</span><span class="params">(<span name="dsePassages">dsePassages: <span class="extype" name="scala.Vector">Vector</span>[<a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>]</span>)</span><span class="result">: <span class="extype" name="scala.Vector">Vector</span>[<span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Find any instances of a text passages appearing more than
+once in a Vector of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s.</p><div class="fullcomment"><div class="comment cmt"><p>Find any instances of a text passages appearing more than
+once in a Vector of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s.
+</p></div><dl class="paramcmts block"><dt class="param">dsePassages</dt><dd class="cmt"><p>Vector of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s to test.</p></dd></dl></div>
     </li><li name="scala.AnyRef#eq" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="eq(x$1:AnyRef):Boolean"></a><a id="eq(AnyRef):Boolean"></a>
       <span class="permalink">
@@ -393,6 +461,38 @@ The CEX source must define a CITE Library.
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#error" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="error(message:Any,cause:Throwable):Unit"></a><a id="error(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#error(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#error" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="error(message:Any):Unit"></a><a id="error(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#error(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li><li name="edu.holycross.shot.dse.DseVector#fromCitableObject" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="fromCitableObject(obj:edu.holycross.shot.citeobj.CiteObject):edu.holycross.shot.dse.DsePassage"></a><a id="fromCitableObject(CiteObject):DsePassage"></a>
       <span class="permalink">
@@ -430,10 +530,10 @@ collection implementing the Dse model.
       <p class="shortcomment cmt">Build a <a href="DseVector.html" class="extype" name="edu.holycross.shot.dse.DseVector">DseVector</a> from a CiteLibrary.</p><div class="fullcomment"><div class="comment cmt"><p>Build a <a href="DseVector.html" class="extype" name="edu.holycross.shot.dse.DseVector">DseVector</a> from a CiteLibrary.
 </p></div><dl class="paramcmts block"><dt class="param">lib</dt><dd class="cmt"><p>A CiteLibrary including one or more collections
 implementing the DSE model.</p></dd></dl></div>
-    </li><li name="edu.holycross.shot.dse.DseVector#fromTextTriples" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="fromTextTriples(cex:String,dseCollection:edu.holycross.shot.cite.Cite2Urn):edu.holycross.shot.dse.DseVector"></a><a id="fromTextTriples(String,Cite2Urn):DseVector"></a>
+    </li><li name="edu.holycross.shot.dse.DseVector#fromTextTriples" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="fromTextTriples(cexStr:String,dseCollection:edu.holycross.shot.cite.Cite2Urn):edu.holycross.shot.dse.DseVector"></a><a id="fromTextTriples(String,Cite2Urn):DseVector"></a>
       <span class="permalink">
-      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#fromTextTriples(cex:String,dseCollection:edu.holycross.shot.cite.Cite2Urn):edu.holycross.shot.dse.DseVector" title="Permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#fromTextTriples(cexStr:String,dseCollection:edu.holycross.shot.cite.Cite2Urn):edu.holycross.shot.dse.DseVector" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -442,10 +542,13 @@ implementing the DSE model.</p></dd></dl></div>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">fromTextTriples</span><span class="params">(<span name="cex">cex: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="dseCollection">dseCollection: <span class="extype" name="edu.holycross.shot.cite.Cite2Urn">Cite2Urn</span></span>)</span><span class="result">: <a href="DseVector.html" class="extype" name="edu.holycross.shot.dse.DseVector">DseVector</a></span>
+        <span class="name">fromTextTriples</span><span class="params">(<span name="cexStr">cexStr: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="dseCollection">dseCollection: <span class="extype" name="edu.holycross.shot.cite.Cite2Urn">Cite2Urn</span></span>)</span><span class="result">: <a href="DseVector.html" class="extype" name="edu.holycross.shot.dse.DseVector">DseVector</a></span>
       </span>
       
-      
+      <p class="shortcomment cmt">Create a <a href="DseVector.html" class="extype" name="edu.holycross.shot.dse.DseVector">DseVector</a> from CEX data for triples.</p><div class="fullcomment"><div class="comment cmt"><p>Create a <a href="DseVector.html" class="extype" name="edu.holycross.shot.dse.DseVector">DseVector</a> from CEX data for triples.  New
+DSE records are created in a specified collection.
+</p></div><dl class="paramcmts block"><dt class="param">cexStr</dt><dd class="cmt"><p>CEX data for DSE triples.</p></dd><dt class="param">dseCollection</dt><dd class="cmt"><p>Cite2Urn for the collection for
+newly created <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s.</p></dd></dl></div>
     </li><li name="scala.AnyRef#getClass" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="getClass():Class[_]"></a>
       <span class="permalink">
@@ -488,6 +591,74 @@ implementing the DSE model.</p></dd></dl></div>
                 <span class="name">@HotSpotIntrinsicCandidate</span><span class="args">()</span>
               
         </dd></dl></div>
+    </li><li name="edu.holycross.shot.dse.DseVector#imageForTbs" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="imageForTbs(passages:Vector[edu.holycross.shot.dse.DsePassage],surface:edu.holycross.shot.cite.Cite2Urn):Option[edu.holycross.shot.cite.Cite2Urn]"></a><a id="imageForTbs(Vector[DsePassage],Cite2Urn):Option[Cite2Urn]"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#imageForTbs(passages:Vector[edu.holycross.shot.dse.DsePassage],surface:edu.holycross.shot.cite.Cite2Urn):Option[edu.holycross.shot.cite.Cite2Urn]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">imageForTbs</span><span class="params">(<span name="passages">passages: <span class="extype" name="scala.Vector">Vector</span>[<a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>]</span>, <span name="surface">surface: <span class="extype" name="edu.holycross.shot.cite.Cite2Urn">Cite2Urn</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="edu.holycross.shot.cite.Cite2Urn">Cite2Urn</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt"> Find reference image for a given text-bearing surface
+in a list of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s.</p><div class="fullcomment"><div class="comment cmt"><p> Find reference image for a given text-bearing surface
+in a list of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s.
+</p></div><dl class="paramcmts block"><dt class="param">surface</dt><dd class="cmt"><p>URN for surface to check.</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.dse.DseVector#imageForText" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="imageForText(passages:Vector[edu.holycross.shot.dse.DsePassage],psg:edu.holycross.shot.cite.CtsUrn):Option[edu.holycross.shot.cite.Cite2Urn]"></a><a id="imageForText(Vector[DsePassage],CtsUrn):Option[Cite2Urn]"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#imageForText(passages:Vector[edu.holycross.shot.dse.DsePassage],psg:edu.holycross.shot.cite.CtsUrn):Option[edu.holycross.shot.cite.Cite2Urn]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">imageForText</span><span class="params">(<span name="passages">passages: <span class="extype" name="scala.Vector">Vector</span>[<a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>]</span>, <span name="psg">psg: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="edu.holycross.shot.cite.Cite2Urn">Cite2Urn</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Reference image illustrating a given passage of text.</p><div class="fullcomment"><div class="comment cmt"><p>Reference image illustrating a given passage of text.
+</p></div><dl class="paramcmts block"><dt class="param">psg</dt><dd class="cmt"><p>A citable node of text.</p></dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#info" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="info(message:Any,cause:Throwable):Unit"></a><a id="info(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#info(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#info" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="info(message:Any):Unit"></a><a id="info(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#info(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li><li name="scala.Any#isInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isInstanceOf[T0]:Boolean"></a>
       <span class="permalink">
@@ -504,6 +675,38 @@ implementing the DSE model.</p></dd></dl></div>
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#logAt" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="logAt(logLevel:wvlet.log.LogLevel,message:Any):Unit"></a><a id="logAt(LogLevel,Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#logAt(logLevel:wvlet.log.LogLevel,message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">logAt</span><span class="params">(<span name="logLevel">logLevel: <span class="extype" name="wvlet.log.LogLevel">LogLevel</span></span>, <span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LazyLogger#logger" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="logger:wvlet.log.Logger"></a><a id="logger:Logger"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#logger:wvlet.log.Logger" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">lazy val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">logger</span><span class="result">: <span class="extype" name="wvlet.log.Logger">Logger</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[this] </dd><dt>Definition Classes</dt><dd>LazyLogger</dd></dl></div>
     </li><li name="scala.AnyRef#ne" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ne(x$1:AnyRef):Boolean"></a><a id="ne(AnyRef):Boolean"></a>
       <span class="permalink">
@@ -562,6 +765,45 @@ implementing the DSE model.</p></dd></dl></div>
                 <span class="name">@HotSpotIntrinsicCandidate</span><span class="args">()</span>
               
         </dd></dl></div>
+    </li><li name="edu.holycross.shot.dse.DseVector#rawFromCex" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="rawFromCex(cexSrc:String,delimiter:String,delimiter2:String):Vector[edu.holycross.shot.dse.DsePassage]"></a><a id="rawFromCex(String,String,String):Vector[DsePassage]"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#rawFromCex(cexSrc:String,delimiter:String,delimiter2:String):Vector[edu.holycross.shot.dse.DsePassage]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">rawFromCex</span><span class="params">(<span name="cexSrc">cexSrc: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="delimiter">delimiter: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;#&quot;</span></span>, <span name="delimiter2">delimiter2: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;,&quot;</span></span>)</span><span class="result">: <span class="extype" name="scala.Vector">Vector</span>[<a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Uncritically create a Vector of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s from a
+CEX string defining a CITE library with DSE content.</p><div class="fullcomment"><div class="comment cmt"><p>Uncritically create a Vector of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s from a
+CEX string defining a CITE library with DSE content.
+</p></div><dl class="paramcmts block"><dt class="param">cexSrc</dt><dd class="cmt"><p>CEX data.</p></dd><dt class="param">delimiter</dt><dd class="cmt"><p>Primary delimiter for CEX.</p></dd><dt class="param">delimiter2</dt><dd class="cmt"><p>Secondary delimiter for CEX.</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.dse.DseVector#rawFromTextTriples" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="rawFromTextTriples(cexStr:String,dseCollection:edu.holycross.shot.cite.Cite2Urn):Vector[edu.holycross.shot.dse.DsePassage]"></a><a id="rawFromTextTriples(String,Cite2Urn):Vector[DsePassage]"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#rawFromTextTriples(cexStr:String,dseCollection:edu.holycross.shot.cite.Cite2Urn):Vector[edu.holycross.shot.dse.DsePassage]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">rawFromTextTriples</span><span class="params">(<span name="cexStr">cexStr: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="dseCollection">dseCollection: <span class="extype" name="edu.holycross.shot.cite.Cite2Urn">Cite2Urn</span></span>)</span><span class="result">: <span class="extype" name="scala.Vector">Vector</span>[<a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Uncritically create a Vector of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s from a
+CEX string with DSE triples.</p><div class="fullcomment"><div class="comment cmt"><p>Uncritically create a Vector of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s from a
+CEX string with DSE triples.
+</p></div><dl class="paramcmts block"><dt class="param">cexStr</dt><dd class="cmt"><p>CEX data.</p></dd><dt class="param">dseCollection</dt><dd class="cmt"><p>Cite2Urn for the CITE collection newly
+created entries.</p></dd></dl></div>
     </li><li name="edu.holycross.shot.dse.DseVector#stripHeader" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="stripHeader(v:Vector[String]):Vector[String]"></a><a id="stripHeader(Vector[String]):Vector[String]"></a>
       <span class="permalink">
@@ -595,6 +837,23 @@ implementing the DSE model.</p></dd></dl></div>
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="edu.holycross.shot.dse.DseVector#textsForTbs" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="textsForTbs(passages:Vector[edu.holycross.shot.dse.DsePassage],surf:edu.holycross.shot.cite.Cite2Urn):scala.collection.immutable.Vector[edu.holycross.shot.cite.CtsUrn]"></a><a id="textsForTbs(Vector[DsePassage],Cite2Urn):Vector[CtsUrn]"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#textsForTbs(passages:Vector[edu.holycross.shot.dse.DsePassage],surf:edu.holycross.shot.cite.Cite2Urn):scala.collection.immutable.Vector[edu.holycross.shot.cite.CtsUrn]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">textsForTbs</span><span class="params">(<span name="passages">passages: <span class="extype" name="scala.Vector">Vector</span>[<a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>]</span>, <span name="surf">surf: <span class="extype" name="edu.holycross.shot.cite.Cite2Urn">Cite2Urn</span></span>)</span><span class="result">: <span class="extype" name="scala.collection.immutable.Vector">Vector</span>[<span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt"> Find all text passages indexed to a given text-bearing surface
+in a list of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s.</p>
     </li><li name="scala.AnyRef#toString" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="toString():String"></a>
       <span class="permalink">
@@ -611,6 +870,57 @@ implementing the DSE model.</p></dd></dl></div>
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#trace" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="trace(message:Any,cause:Throwable):Unit"></a><a id="trace(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#trace(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#trace" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="trace(message:Any):Unit"></a><a id="trace(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#trace(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="edu.holycross.shot.dse.DseVector#triangleConsistencyErrors" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="triangleConsistencyErrors(passages:Vector[edu.holycross.shot.dse.DsePassage]):Vector[String]"></a><a id="triangleConsistencyErrors(Vector[DsePassage]):Vector[String]"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#triangleConsistencyErrors(passages:Vector[edu.holycross.shot.dse.DsePassage]):Vector[String]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">triangleConsistencyErrors</span><span class="params">(<span name="passages">passages: <span class="extype" name="scala.Vector">Vector</span>[<a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>]</span>)</span><span class="result">: <span class="extype" name="scala.Vector">Vector</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Find any instances of surface and related text passages
+being indexed to different reference images in a Vector of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s.</p><div class="fullcomment"><div class="comment cmt"><p>Find any instances of surface and related text passages
+being indexed to different reference images in a Vector of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s.
+</p></div><dl class="paramcmts block"><dt class="param">passages</dt><dd class="cmt"><p>Vector of <a href="DsePassage.html" class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</a>s to check.</p></dd></dl></div>
     </li><li name="scala.AnyRef#wait" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="wait(x$1:Long,x$2:Int):Unit"></a><a id="wait(Long,Int):Unit"></a>
       <span class="permalink">
@@ -679,6 +989,38 @@ implementing the DSE model.</p></dd></dl></div>
     </span>)</span>
               
         </dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#warn" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="warn(message:Any,cause:Throwable):Unit"></a><a id="warn(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#warn(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#warn" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="warn(message:Any):Unit"></a><a id="warn(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/dse/DseVector$.html#warn(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li>
               </ol>
             </div>
@@ -718,7 +1060,13 @@ implementing the DSE model.</p></dd></dl></div>
         </div>
 
         <div id="inheritedMembers">
-        <div class="parent" name="scala.Serializable">
+        <div class="parent" name="wvlet.log.LogSupport">
+              <h3>Inherited from <span class="extype" name="wvlet.log.LogSupport">LogSupport</span></h3>
+            </div><div class="parent" name="wvlet.log.LazyLogger">
+              <h3>Inherited from <span class="extype" name="wvlet.log.LazyLogger">LazyLogger</span></h3>
+            </div><div class="parent" name="wvlet.log.LoggingMethods">
+              <h3>Inherited from <span class="extype" name="wvlet.log.LoggingMethods">LoggingMethods</span></h3>
+            </div><div class="parent" name="scala.Serializable">
               <h3>Inherited from <span class="extype" name="scala.Serializable">Serializable</span></h3>
             </div><div class="parent" name="java.io.Serializable">
               <h3>Inherited from <span class="extype" name="java.io.Serializable">Serializable</span></h3>
