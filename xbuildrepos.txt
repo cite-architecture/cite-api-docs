@@ -1,3 +1,4 @@
+https://github.com/cite-architecture/citevalidator
 https://github.com/cite-architecture/cex
 https://github.com/cite-architecture/citebinaryimage
 https://github.com/cite-architecture/CITE-JSON
