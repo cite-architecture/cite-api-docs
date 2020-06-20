@@ -430,7 +430,7 @@ required &quot;verify&quot; method.</p>
         <span class="name">collections</span><span class="result">: <span class="extype" name="edu.holycross.shot.citeobj.CiteCollectionRepository">CiteCollectionRepository</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">Short-hand reference for library's CITE collections.</p>
     </li><li name="edu.holycross.shot.citevalidator.DseValidator#corpus" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="corpus:edu.holycross.shot.ohco2.Corpus"></a><a id="corpus:Corpus"></a>
       <span class="permalink">
@@ -446,7 +446,7 @@ required &quot;verify&quot; method.</p>
         <span class="name">corpus</span><span class="result">: <span class="extype" name="edu.holycross.shot.ohco2.Corpus">Corpus</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">Short-hand reference for library's text corpus.</p>
     </li><li name="edu.holycross.shot.citevalidator.DseValidator#coverage" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="coverage(psgs:Vector[edu.holycross.shot.dse.DsePassage]):String"></a><a id="coverage(Vector[DsePassage]):String"></a>
       <span class="permalink">
@@ -679,7 +679,7 @@ passage based on setting of Boolean valid.
         <span class="name">label</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
       </span>
       
-      <p class="shortcomment cmt">Label or title for this validator.</p><div class="fullcomment"><div class="comment cmt"><p>Label or title for this validator.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.holycross.shot.citevalidator.DseValidator">DseValidator</a> → <a href="CiteValidator.html" class="extype" name="edu.holycross.shot.citevalidator.CiteValidator">CiteValidator</a></dd></dl></div>
+      <p class="shortcomment cmt">Label for CiteValidator.</p><div class="fullcomment"><div class="comment cmt"><p>Label for CiteValidator.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.holycross.shot.citevalidator.DseValidator">DseValidator</a> → <a href="CiteValidator.html" class="extype" name="edu.holycross.shot.citevalidator.CiteValidator">CiteValidator</a></dd></dl></div>
     </li><li name="wvlet.log.LoggingMethods#logAt" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="logAt(logLevel:wvlet.log.LogLevel,message:Any):Unit"></a><a id="logAt(LogLevel,Any):Unit"></a>
       <span class="permalink">
@@ -819,7 +819,7 @@ passage based on setting of Boolean valid.
       </span>
       
       <p class="shortcomment cmt">Get ordered list of all text-bearing surfaces in the library.</p>
-    </li><li name="edu.holycross.shot.citevalidator.DseValidator#textContents" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+    </li><li name="edu.holycross.shot.citevalidator.DseValidator#textContents" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="textContents(psg:edu.holycross.shot.dse.DsePassage):String"></a><a id="textContents(DsePassage):String"></a>
       <span class="permalink">
       <a href="../../../../edu/holycross/shot/citevalidator/DseValidator.html#textContents(psg:edu.holycross.shot.dse.DsePassage):String" title="Permalink">
@@ -834,7 +834,10 @@ passage based on setting of Boolean valid.
         <span class="name">textContents</span><span class="params">(<span name="psg">psg: <span class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
       </span>
       
-      
+      <p class="shortcomment cmt">Extract text contents from text nodes of a DSE
+record's text passages.</p><div class="fullcomment"><div class="comment cmt"><p>Extract text contents from text nodes of a DSE
+record's text passages.
+</p></div><dl class="paramcmts block"><dt class="param">psg</dt><dd class="cmt"><p>A DSE record.</p></dd></dl></div>
     </li><li name="wvlet.log.LoggingMethods#trace" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="trace(message:Any,cause:Throwable):Unit"></a><a id="trace(Any,Throwable):Unit"></a>
       <span class="permalink">
@@ -917,7 +920,10 @@ Required method for implementation of CiteValidator trait.
         <span class="name">validate</span><span class="params">(<span name="surfaces">surfaces: <span class="extype" name="scala.Vector">Vector</span>[<span class="extype" name="edu.holycross.shot.cite.Cite2Urn">Cite2Urn</span>]</span>)</span><span class="result">: <span class="extype" name="scala.Vector">Vector</span>[<a href="TestResult.html" class="extype" name="edu.holycross.shot.citevalidator.TestResult">TestResult</a>[<span class="extype" name="edu.holycross.shot.dse.DsePassage">DsePassage</span>]]</span>
       </span>
       
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="CiteValidator.html" class="extype" name="edu.holycross.shot.citevalidator.CiteValidator">CiteValidator</a></dd></dl></div>
+      <p class="shortcomment cmt">Validate all contents of a CiteLibrary for type T
+related to a Vector of surfaces.</p><div class="fullcomment"><div class="comment cmt"><p>Validate all contents of a CiteLibrary for type T
+related to a Vector of surfaces.
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="CiteValidator.html" class="extype" name="edu.holycross.shot.citevalidator.CiteValidator">CiteValidator</a></dd></dl></div>
     </li><li name="edu.holycross.shot.citevalidator.DseValidator#verify" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="verify(surface:edu.holycross.shot.cite.Cite2Urn):String"></a><a id="verify(Cite2Urn):String"></a>
       <span class="permalink">
