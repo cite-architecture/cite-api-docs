@@ -1,6 +1,6 @@
 ## CITE architecture libraries: version numbers and API documentation
 
-Last updated: Sat Jun 20 15:01:10 EDT 2020
+Last updated: Wed Jun 24 05:19:53 EDT 2020
 
 
 
@@ -9,9 +9,9 @@ Last updated: Sat Jun 20 15:01:10 EDT 2020
   - `citejson` **3.3.0** [API docs](CITE-JSON/api/edu/holycross/shot/citejson/index.html).
   - `citeobj` **7.5.0** [API docs](citeobj/api/edu/holycross/shot/citeobj/index.html). [User guide](https://cite-architecture.github.io/citeobj/). [Github](https://github.com/cite-architecture/citeobj).
   - `citerelations` **2.7.0** [API docs](citerelations/api/edu/holycross/shot/citerelation/index.html). [User guide](https://cite-architecture.github.io/citerelations/).  [Github](https://github.com/cite-architecture/citerelations).
-  - `citevalidator` **1.1.2** [API docs](citevalidator/api/edu/holycross/shot/citevalidator/index.html). [User guide](https://cite-architecture.github.io/citevalidator/). [Github](https://github.com/cite-architecture/citevalidator).
+  - `citevalidator` **1.2.1** [API docs](citevalidator/api/edu/holycross/shot/citevalidator/index.html). [User guide](https://cite-architecture.github.io/citevalidator/). [Github](https://github.com/cite-architecture/citevalidator).
   - `citewriter` **1.2.2** [API docs](citewriter/api/edu/furman/classics/citewriter/index.html).
-  - `dse` **7.1.2** [API docs](dse/api/edu/holycross/shot/dse/index.html). [User guide](https://cite-architecture.github.io/dse/). [Github](https://github.com/cite-architecture/dse). Binaries available from [bintray and jcenter](https://bintray.com/neelsmith/maven/dse).
-  - `ohco2` **10.19.0** [API docs](ohco2/api/edu/holycross/shot/ohco2/index.html). [User guide](https://cite-architecture.org/dse/). [Github](https://github.com/cite-architecture/dse). Binaries available from [bintray and jcenter](https://bintray.com/neelsmith/maven/ohco2).
+  - `dse` **7.1.3** [API docs](dse/api/edu/holycross/shot/dse/index.html). [User guide](https://cite-architecture.github.io/dse/). [Github](https://github.com/cite-architecture/dse). Binaries available from [bintray and jcenter](https://bintray.com/neelsmith/maven/dse).
+  - `ohco2` **10.20.0** [API docs](ohco2/api/edu/holycross/shot/ohco2/index.html). [User guide](https://cite-architecture.org/ohco2/). [Github](https://github.com/cite-architecture/ohco2). Binaries available from [bintray and jcenter](https://bintray.com/neelsmith/maven/ohco2).
   - `scm` **7.3.0** [API docs](scm/api/edu/holycross/shot/scm/index.html).  [User guide](https://cite-architecture.github.io/scm/). [Github](https://github.com/cite-architecture/scm). Binaries avilable from [bintray and jcenter](https://bintray.com/neelsmith/maven/xcite).
   - `xcite` **4.3.0** [API docs](xcite/api/edu/holycross/shot/cite/index.html). [User guide](https://cite-architecture.github.io/xcite/). [Github](https://github.com/cite-architecture/xcite).  Binaries available from [bintray and jcenter](https://bintray.com/neelsmith/maven/xcite).
