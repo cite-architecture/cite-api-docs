@@ -1,6 +1,6 @@
 ## CITE architecture libraries: version numbers and API documentation
 
-Last updated: Wed Jun 24 05:19:53 EDT 2020
+Last updated: Fri Jun 26 15:18:39 EDT 2020
 
 
 
@@ -12,6 +12,6 @@ Last updated: Wed Jun 24 05:19:53 EDT 2020
   - `citevalidator` **1.2.1** [API docs](citevalidator/api/edu/holycross/shot/citevalidator/index.html). [User guide](https://cite-architecture.github.io/citevalidator/). [Github](https://github.com/cite-architecture/citevalidator).
   - `citewriter` **1.2.2** [API docs](citewriter/api/edu/furman/classics/citewriter/index.html).
   - `dse` **7.1.3** [API docs](dse/api/edu/holycross/shot/dse/index.html). [User guide](https://cite-architecture.github.io/dse/). [Github](https://github.com/cite-architecture/dse). Binaries available from [bintray and jcenter](https://bintray.com/neelsmith/maven/dse).
-  - `ohco2` **10.20.0** [API docs](ohco2/api/edu/holycross/shot/ohco2/index.html). [User guide](https://cite-architecture.org/ohco2/). [Github](https://github.com/cite-architecture/ohco2). Binaries available from [bintray and jcenter](https://bintray.com/neelsmith/maven/ohco2).
+  - `ohco2` **10.20.1** [API docs](ohco2/api/edu/holycross/shot/ohco2/index.html). [User guide](https://cite-architecture.org/ohco2/). [Github](https://github.com/cite-architecture/ohco2). Binaries available from [bintray and jcenter](https://bintray.com/neelsmith/maven/ohco2).
   - `scm` **7.3.0** [API docs](scm/api/edu/holycross/shot/scm/index.html).  [User guide](https://cite-architecture.github.io/scm/). [Github](https://github.com/cite-architecture/scm). Binaries avilable from [bintray and jcenter](https://bintray.com/neelsmith/maven/xcite).
   - `xcite` **4.3.0** [API docs](xcite/api/edu/holycross/shot/cite/index.html). [User guide](https://cite-architecture.github.io/xcite/). [Github](https://github.com/cite-architecture/xcite).  Binaries available from [bintray and jcenter](https://bintray.com/neelsmith/maven/xcite).
