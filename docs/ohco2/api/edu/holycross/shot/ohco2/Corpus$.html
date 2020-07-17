@@ -258,7 +258,7 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <span class="name">Corpus</span><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <span class="name">Corpus</span><span class="result"> extends <span class="extype" name="wvlet.log.LogSupport">LogSupport</span></span>
       </span>
       </h4>
 
@@ -267,7 +267,7 @@
           <span class="toggle">
             Linear Supertypes
           </span>
-          <div class="superTypes hiddenContent"><span class="extype" name="scala.Serializable">Serializable</span>, <span class="extype" name="java.io.Serializable">Serializable</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+          <div class="superTypes hiddenContent"><span class="extype" name="wvlet.log.LogSupport">LogSupport</span>, <span class="extype" name="wvlet.log.LazyLogger">LazyLogger</span>, <span class="extype" name="wvlet.log.LoggingMethods">LoggingMethods</span>, <span class="extype" name="scala.Serializable">Serializable</span>, <span class="extype" name="java.io.Serializable">Serializable</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
         </div></div>
         
 
@@ -293,7 +293,7 @@
                   <span class="filtertype">Inherited<br />
                   </span>
                   <ol id="linearization">
-                    <li class="in" name="edu.holycross.shot.ohco2.Corpus"><span>Corpus</span></li><li class="in" name="scala.Serializable"><span>Serializable</span></li><li class="in" name="java.io.Serializable"><span>Serializable</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                    <li class="in" name="edu.holycross.shot.ohco2.Corpus"><span>Corpus</span></li><li class="in" name="wvlet.log.LogSupport"><span>LogSupport</span></li><li class="in" name="wvlet.log.LazyLogger"><span>LazyLogger</span></li><li class="in" name="wvlet.log.LoggingMethods"><span>LoggingMethods</span></li><li class="in" name="scala.Serializable"><span>Serializable</span></li><li class="in" name="java.io.Serializable"><span>Serializable</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
                   </ol>
                 </div><div class="ancestors">
               <span class="filtertype"></span>
@@ -447,6 +447,38 @@ of <a href="Corpus.html" class="extype" name="edu.holycross.shot.ohco2.Corpus">C
 of <a href="Corpus.html" class="extype" name="edu.holycross.shot.ohco2.Corpus">Corpus</a> objects.  The order of nodes within the composite
 corpus follows their order in the Vector of corpora.
 </p></div><dl class="paramcmts block"><dt class="param">v</dt><dd class="cmt"><p>Vector of corpora to merge.</p></dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#debug" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="debug(message:Any,cause:Throwable):Unit"></a><a id="debug(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#debug(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#debug" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="debug(message:Any):Unit"></a><a id="debug(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#debug(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li><li name="scala.AnyRef#eq" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="eq(x$1:AnyRef):Boolean"></a><a id="eq(AnyRef):Boolean"></a>
       <span class="permalink">
@@ -479,6 +511,38 @@ corpus follows their order in the Vector of corpora.
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#error" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="error(message:Any,cause:Throwable):Unit"></a><a id="error(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#error(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#error" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="error(message:Any):Unit"></a><a id="error(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#error(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li><li name="scala.AnyRef#getClass" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="getClass():Class[_]"></a>
       <span class="permalink">
@@ -521,6 +585,38 @@ corpus follows their order in the Vector of corpora.
                 <span class="name">@HotSpotIntrinsicCandidate</span><span class="args">()</span>
               
         </dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#info" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="info(message:Any,cause:Throwable):Unit"></a><a id="info(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#info(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#info" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="info(message:Any):Unit"></a><a id="info(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#info(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li><li name="scala.Any#isInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isInstanceOf[T0]:Boolean"></a>
       <span class="permalink">
@@ -537,6 +633,38 @@ corpus follows their order in the Vector of corpora.
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#logAt" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="logAt(logLevel:wvlet.log.LogLevel,message:Any):Unit"></a><a id="logAt(LogLevel,Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#logAt(logLevel:wvlet.log.LogLevel,message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">logAt</span><span class="params">(<span name="logLevel">logLevel: <span class="extype" name="wvlet.log.LogLevel">LogLevel</span></span>, <span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LazyLogger#logger" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="logger:wvlet.log.Logger"></a><a id="logger:Logger"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#logger:wvlet.log.Logger" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">lazy val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">logger</span><span class="result">: <span class="extype" name="wvlet.log.Logger">Logger</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[this] </dd><dt>Definition Classes</dt><dd>LazyLogger</dd></dl></div>
     </li><li name="scala.AnyRef#ne" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ne(x$1:AnyRef):Boolean"></a><a id="ne(AnyRef):Boolean"></a>
       <span class="permalink">
@@ -660,6 +788,38 @@ corpus follows their order in the Vector of corpora.
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#trace" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="trace(message:Any,cause:Throwable):Unit"></a><a id="trace(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#trace(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#trace" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="trace(message:Any):Unit"></a><a id="trace(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#trace(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li><li name="scala.AnyRef#wait" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="wait(x$1:Long,x$2:Int):Unit"></a><a id="wait(Long,Int):Unit"></a>
       <span class="permalink">
@@ -728,6 +888,38 @@ corpus follows their order in the Vector of corpora.
     </span>)</span>
               
         </dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#warn" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="warn(message:Any,cause:Throwable):Unit"></a><a id="warn(Any,Throwable):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#warn(message:Any,cause:Throwable):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>, <span name="cause">cause: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
+    </li><li name="wvlet.log.LoggingMethods#warn" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="warn(message:Any):Unit"></a><a id="warn(Any):Unit"></a>
+      <span class="permalink">
+      <a href="../../../../edu/holycross/shot/ohco2/Corpus$.html#warn(message:Any):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="message">message: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LoggingMethods</dd></dl></div>
     </li>
               </ol>
             </div>
@@ -767,7 +959,13 @@ corpus follows their order in the Vector of corpora.
         </div>
 
         <div id="inheritedMembers">
-        <div class="parent" name="scala.Serializable">
+        <div class="parent" name="wvlet.log.LogSupport">
+              <h3>Inherited from <span class="extype" name="wvlet.log.LogSupport">LogSupport</span></h3>
+            </div><div class="parent" name="wvlet.log.LazyLogger">
+              <h3>Inherited from <span class="extype" name="wvlet.log.LazyLogger">LazyLogger</span></h3>
+            </div><div class="parent" name="wvlet.log.LoggingMethods">
+              <h3>Inherited from <span class="extype" name="wvlet.log.LoggingMethods">LoggingMethods</span></h3>
+            </div><div class="parent" name="scala.Serializable">
               <h3>Inherited from <span class="extype" name="scala.Serializable">Serializable</span></h3>
             </div><div class="parent" name="java.io.Serializable">
               <h3>Inherited from <span class="extype" name="java.io.Serializable">Serializable</span></h3>
